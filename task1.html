@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Слайдер изображений</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slider-wrapper">
+    <div class="slider-container">
+      <div class="slider" id="slider">
+        <div class="slide"><img src="photo\1.png" alt="1"></div>
+        <div class="slide"><img src="photo\2.jpg" alt="2"></div>
+        <div class="slide"><img src="photo\3.jpg" alt="3"></div>
+        <div class="slide"><img src="photo\4.avif" alt="4"></div>
+        <div class="slide"><img src="photo\5.webp" alt="5"></div>
+        
+      </div>
+      <button class="btn prev" onclick="changeSlide(-1)">❮</button>
+      <button class="btn next" onclick="changeSlide(1)">❯</button>
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <script src="new.js"></script>
+</body>
+</html>
